@@ -454,6 +454,11 @@ a[data-toggle="collapse"] {
   color: #048278;
 }
 
+.col {
+  padding-top: 4em;
+  padding-right: 3em;
+}
+
 
 
 
