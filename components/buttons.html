@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KSimpson_TypeHierarchyandLogo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alice&family=Arimo:wght@400;700&family=Darker+Grotesque:wght@400;700&family=Spectral:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/prism.css">
+    </head>
+
+    <body>
+        <div class="d-flex">
+            <nav id="sidebar">
+                
+                <div class="custom-menu">
+                    <button type="button" id="sidebarCollapse" class="toggle-btn">
+                        <span class="sr-only">Toggle Menu</span>
+                            <div id="nav-icon1">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                    </button>
+                </div>
+
+                <div class="p-4 pt-6">
+                    <a href="../index.html" class="logo"><img src="../images/ktslogo.png" alt="KTS Reverse Logo"></a>
+
+                    <div class="sidebarContent">
+                    <ul class="list-unstyled components">
+                        <li class="active">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+                            
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="../foundations/type2.html">Typography</a>
+                                </li>
+
+                                <li>
+                                    <a href="../foundations/colors.html">Colors</a>
+                                </li>
+
+                                <li>
+                                    <a href="../foundations/logo.html">Logo</a>
+                                </li>
+                            </ul>
+
+                            <a href="#compSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+
+                            <ul class="collapse.show list-unstyled" id="compSubmenu">
+                                <li>
+                                    <a href="introsocialnav.html">Intro & Navigation</a>
+                                </li>
+
+                                <li>
+                                    <a href="cards.html">Cards</a>
+                                </li>
+
+                                <li>
+                                    <a href="buttons.html">Buttons</a>
+                                </li>
+                            </ul>
+
+                            <a href="#patternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+
+                            <ul class="collapse list-unstyled" id="patternsSubmenu">
+                                <li>
+                                    <a href="../patterns/homepattern.html">Homepage Patterns</a>
+                                </li>
+
+                                <li>
+                                    <a href="../patterns/portfolio.html">Portfolio Patterns</a>
+                                </li>
+
+                                <li>
+                                    <a href="../patterns/casestudy.html">Case Study Patterns</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <div class="container">
+                <div class="row p-5 pt-6">
+                    <div id="content">
+                        <h1 id="type2">Buttons</h1>
+                        <p class="pageInfo" id="type2ss">The following components pertain to the use of buttons within the system.</p>
+
+                        <div class="row align-items center">
+                            <div class="col-lg-5">
+                                <h4 id="type2">For All</h4>
+                                <p id="type2ss">This is the button component used for all screens (desktop, tablet, and mobile). It is displayed with a dark (#202022 in the color scheme) text when inactive, and light text (#f3f3f3) when hovered.</p>
+                            </div>
+                            
+                            <div class="col">
+                                <img class="img-size rounded mx-auto d=block" src="../images/buttons.png" alt="hex-color #f3f3f3 circle">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="bestUse">
+                            <h4 id="type2">Usage & Best Practices</h4>
+                            <p id="type2ss">Buttons should be used sparingly. The portfolio site uses them for case studies and
+                                for additional content the user may need to navigate to a new page in order to see (see viewing images on mobile
+                                in the case study patterns). The current portfolio site does not use any forms, but these buttons would be appropriate to
+                                use in the event one wants to include forms on their webpage. The buttons should always be rounded and ideally justified right 
+                                within their container.
+                            </form></p>
+                        </div>
+
+                        <div class="accessibility">
+                            <h4 id="type2">Accessibility</h4>
+                            <p id="type2ss">Ensure that the buttons use the pink, or light, background with dark text for accessibility. Button text should
+                                only be light when a user hovers over the button.
+                            </p>
+                        </div>
+
+                        <br>
+                        
+                        <div class="code">
+                            <h4 id="type2">Code Example</h4>
+
+<pre>
+    <code class="language-markup">
+        &lt;button type="button" class="btn btn-light">Light&lt;/button>
+    </code>
+</pre>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/popper.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/prism.js"></script>
+    </body>
+</html>
